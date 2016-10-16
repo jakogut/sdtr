@@ -7,5 +7,8 @@ setup(
         author='Joseph Kogut',
         author_email='joseph.kogut@gmail.com',
         url='https://github.com/jakogut/sdtr.git',
-        packages=['sdtr']
+        packages=['sdtr'],
+        install_requires=[
+            'opencv-python==3.1.0.3'
+        ],
 )
